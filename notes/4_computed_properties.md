@@ -1,4 +1,10 @@
 ## Basic example
++ Make sure you don't fucking change computed properties!!!
++ They should be computed automatically according to raw data!!!
+
+The reason why you should use this is because it's just like querying a database, what you're querying is dynamic according to the changes of the raw data. you don't want to store them, you query them when you need them, and when raw data changes, the computed value will be automatically changed as well.
+
+
 ```
 var vm = new Vue({
   el: '#example',
@@ -20,6 +26,10 @@ var vm = new Vue({
 
 
 ## You can set computed setter
++ It's great!!!
++ But I'm not sure when to use it.
+
+
 ```
 computed: {
   fullName: {
