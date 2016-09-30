@@ -9,7 +9,7 @@
 
 ```
 
-** You can also use an inline javascript handler
+**You can also use an inline javascript handler**
 + This fancy long sentence simply means ``pass value to it``
 + You can pass ``$event`` in the inline handler so you can access original DOM event
 
