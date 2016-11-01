@@ -1,3 +1,5 @@
+# Have to review this part for deeper understanding
+
 ## Basics Usage
 ``v-model`` is a good example of two-way data binding. it's just syntax sugar for getting value from user input event and update it to Vue instance under the data object
 
@@ -22,3 +24,16 @@
   // when unchecked:
   vm.toggle === vm.b
 ```
+
+**Example of radio type input**
+```
+<div class="app">
+  <input type="radio" v-model="pick" v-bind:value="a">
+</div>
+
+
+
+```
+
+
+## Param Attributes
